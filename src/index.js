@@ -11,7 +11,7 @@ module.exports = function getTimeForEducation(
     ) 
     {
       let number_of_weeks =  Math.ceil( 800 / config[focus]);
-
+ 
       if (knowsProgramming == false)
       {
         number_of_weeks += Math.ceil( 500 / config[focus]);
